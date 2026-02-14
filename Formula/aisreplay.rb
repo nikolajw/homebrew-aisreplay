@@ -1,8 +1,9 @@
 class Aisreplay < Formula
-  desc "Replay Automatic Identification System (AIS) vessel tracking data"
+  desc "Replay Automatic Identification System (AIS) vessel tracking data via UDP"
   homepage "https://github.com/nikolajw/ais-replay"
   license "MIT"
   version "0.2.1"
+  # Note: Release archives also contain AisFileLoader. Install with 'aisfileloader' formula separately if needed.
 
   on_macos do
     on_arm do
