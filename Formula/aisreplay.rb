@@ -3,15 +3,15 @@ class Aisreplay < Formula
   homepage "https://github.com/nikolajw/ais-replay"
   license "MIT"
   version "0.3.5"
-  # Note: Release archives also contain AisFileLoader. Install with 'aisfileloader' formula separately if needed.
+  # Note: AisTools suite archives contain both AisReplay and AisLoader. Install individually with their respective formulas.
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.5/aisreplay-macos-arm64.tar.gz"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.5/aistools-macos-arm64.tar.gz"
       sha256 "937d93aa12c1c1b6b9ac2f6d05eaa65d0aa36aa6b2d348aa263921015537227e"
     end
     on_intel do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.5/aisreplay-macos-x64.tar.gz"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.3.5/aistools-macos-x64.tar.gz"
       sha256 "9aa0bc65b3ac7f61477f35803d3bbfdb38e54934dc398d773748ae9fc958c7fc"
     end
   end
