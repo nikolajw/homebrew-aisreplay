@@ -7,11 +7,11 @@ class Aisloader < Formula
   on_macos do
     on_arm do
       url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.0/aistools-macos-arm64.tar.gz"
-      sha256 "937d93aa12c1c1b6b9ac2f6d05eaa65d0aa36aa6b2d348aa263921015537227e"
+      sha256 "39dfe125b83373ed98eb43d0e1b18aa0523261af865ed9100d75d284258a1bee"
     end
     on_intel do
       url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.0/aistools-macos-x64.tar.gz"
-      sha256 "9aa0bc65b3ac7f61477f35803d3bbfdb38e54934dc398d773748ae9fc958c7fc"
+      sha256 "6382fcbd18949684449808118205be0f74c49a230c27d5f85e68fc9aeb48f82f"
     end
   end
 
