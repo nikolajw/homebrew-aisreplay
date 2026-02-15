@@ -2,16 +2,16 @@ class Aisloader < Formula
   desc "Filter Automatic Identification System (AIS) CSV data by vessel MMSI"
   homepage "https://github.com/nikolajw/ais-replay"
   license "MIT"
-  version "0.4.2"
+  version "0.4.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.2/aistools-macos-arm64.tar.gz"
-      sha256 "e8ac97f34f5e12962b045dac3ab04fdf9fb51a613a63ef267ff45dd003e5bdeb"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.3/aistools-macos-arm64.tar.gz"
+      sha256 "719140d950c77d944b80230d52a0e8285d476de73edfecef502e8247f03aa290"
     end
     on_intel do
-      url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.2/aistools-macos-x64.tar.gz"
-      sha256 "77ead0ec380a57f8d247a509de2e1b62ad472bb2b38484efaaed6aa93e779b05"
+      url "https://github.com/nikolajw/ais-replay/releases/download/v0.4.3/aistools-macos-x64.tar.gz"
+      sha256 "18e514067ddbc7c22fd1d7186b37250d88015cd0bdcdf70e975ba7165198e736"
     end
   end
 
