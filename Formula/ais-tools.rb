@@ -23,17 +23,17 @@ class AisTools < Formula
       "macos-x64"
     end
 
-    bin.install "#{arch_dir}/AisStreamer"
-    bin.install "#{arch_dir}/AisLoader"
+    bin.install "#{arch_dir}/ais-streamer"
+    bin.install "#{arch_dir}/ais-loader"
   end
 
   test do
-    # Test AisStreamer
-    output = shell_output("#{bin}/AisStreamer 2>&1 || true")
+    # Test ais-streamer
+    output = shell_output("#{bin}/ais-streamer 2>&1 || true")
     assert_match(/Usage|Error|required/, output)
 
-    # Test AisLoader
-    output = shell_output("#{bin}/AisLoader 2>&1 || true")
+    # Test ais-loader
+    output = shell_output("#{bin}/ais-loader 2>&1 || true")
     assert_match(/Usage|Error|required/, output)
   end
 end
