@@ -2,16 +2,16 @@ class AisTools < Formula
   desc "AIS vessel tracking tools - AisStreamer, AisLoader, and AisSimulator"
   homepage "https://github.com/nikolajw/ais-tools"
   license "MIT"
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolajw/ais-tools/releases/download/v0.5.0/aistools-macos-arm64.tar.gz"
-      sha256 "2d8a1c3376575508281f8cadb4e4331e27aba562a579afc361bf11fb9f451129"
+      url "https://github.com/nikolajw/ais-tools/releases/download/v0.5.1/aistools-macos-arm64.tar.gz"
+      sha256 "91b079731dd9046d1d65f29949761cfba847f21ca1ac2798a828e00aca05cbf2"
     end
     on_intel do
-      url "https://github.com/nikolajw/ais-tools/releases/download/v0.5.0/aistools-macos-x64.tar.gz"
-      sha256 "b9118b8c72635178cd03286c8ee848ca815ad6d0a68e5a0b924197932029e969"
+      url "https://github.com/nikolajw/ais-tools/releases/download/v0.5.1/aistools-macos-x64.tar.gz"
+      sha256 "15fdef068a59091808f8eedebaeb8c49dc7e66a43f58690be9100fbf3688738f"
     end
   end
 
